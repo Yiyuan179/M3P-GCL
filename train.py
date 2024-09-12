@@ -78,7 +78,7 @@ def evaluate(model, embeds, data):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='Cornell')
+    parser.add_argument('--dataset', type=str, default='Cora')
     parser.add_argument('--SEED', type=int, default=0)
     parser.add_argument('--K', type=int, default=70)
     parser.add_argument('--pri_hop', type=int, default=2)
