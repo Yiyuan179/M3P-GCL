@@ -25,3 +25,6 @@ scikit_learn==1.4.0
 torch==2.0.1
 torch-geometric==2.5.3
 ```
+
+## Code Reference
+This model is developed based on [JialuChenChina/ASP: The code of "Attribute and Structure preserving Graph Contrastive Learning" (AAAI 2023 oral)](https://github.com/JialuChenChina/ASP).
