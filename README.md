@@ -4,13 +4,12 @@ PyTorch Implementation for "Beyond Homophily: Graph Contrastive Learning with Ma
 
 ## Description
 
-we propose M<sup>3</sup>P-GCL framework to address the limitations of homophily assumption in current GCL frameworks by introducing an Aligned Priority-Supporting View Encoding (APS-VE) strategy for structual and attribute views at the macro-level, and an Adaptive Self-Propagation (ASP) strategy for self-loop at the micro-level. These innovations diversify the message passing mechanism, enabling M<sup>3</sup>P-GCL to enhance performance in homophilous and non-homophilous graphs.
+We propose M<sup>3</sup>P-GCL to address the limitations of homophily assumption in current GCL frameworks by introducing an Aligned Priority-Supporting View Encoding (APS-VE) strategy for structural and attribute views at the macro-level, and an Adaptive Self-Propagation (ASP) strategy for self-loops at the micro-level. These innovations diversify the message passing mechanism, enabling M<sup>3</sup>P-GCL to improve performance in homophilous and non-homophilous graphs.
 
 <div style="text-align: center;">
     <img src="./framework.jpg" />
     <p><strong>Figure:</strong> The overview of M<sup>3</sup>P-GCL framework.</p>
 </div>
-
 
 ## Overview
 
